@@ -1,0 +1,343 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+  span{
+
+    padding: 0.5rem 1.25rem;
+    font-size: .9999rem;
+}
+
+
+  li{
+
+    margin-left: 30px;
+    color: red;
+
+
+  }
+  .mainImg{
+
+   float: right;
+   width: 30%;
+   margin-right: 200px;
+   margin-top: 100px;;
+
+  }
+  .home{
+     
+      padding: 50px;
+      text-align: justify ;
+      margin-bottom: 5%;
+     
+    background-color:#f4f9f4;
+      margin-bottom: 10%;
+  }
+  .title{
+  
+     margin-top: 200px   ;
+     line-height: 2rem;
+    margin-left: 350px;
+    margin-bottom: 15%;
+    
+
+  }
+.donateBtn{
+
+    position: relative;
+    top:2px;
+    left:100px;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+
+    
+
+}
+.btn{
+    border-radius: 2rem;
+    font-weight: bold;
+    padding: 15px;
+
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1965ff;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    line-height: 1.25rem;
+    
+}
+
+
+
+.homeBtn{
+
+    margin-top: 20px;
+    margin:5px;
+}
+.icon{
+
+    width: 30px;
+    height: 30px;
+}
+.navbar{
+
+   background-color:#f4f9f4;
+  z-index:99;
+  
+
+
+}
+.navbar-brand{
+
+    margin-left:20%;
+}
+
+/* <---------------about-page---------------------------------------------------> */
+
+.about{
+
+    margin-top:10%;
+    padding-top: 150px;
+    margin: 150px auto;
+    padding-bottom: 5px;
+  
+}
+.aboutPageImg{
+    
+
+    width: 45%;
+    float: left;
+    margin-right: 7%;
+
+}
+.aboutTitle{
+
+ text-align: justify;
+
+}
+.aboutBtn{
+
+    text-decoration: none;
+    margin-bottom: 20px;;
+}
+.aboutBtn:hover{
+
+    color: red;
+}
+
+
+
+
+/* <------------------------Spred--------------------------------------------> */
+
+.spred{
+
+    text-align: center;
+   
+    background-color:#f4f9f4;
+    padding-top: 150px;
+    margin: 150px auto;
+    padding-bottom: 150px;
+    margin-top: 50px;
+}
+.card{
+    text-align: left;
+    margin: 20px;
+}
+
+.card-deck{
+ 
+    position: relative;
+    left:20%;
+
+}
+.card-body{
+    margin: 40px auto;;
+}
+
+
+
+/* <!-- <===========================================Symptoms==================================================> --> */
+
+
+.symptoms{
+
+   
+    padding-top: 150px;
+    margin: 150px auto;
+    padding-bottom: 150px;
+    margin-top: 50px;
+
+}
+
+.symImgMain{
+
+ 
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+
+}
+.symTitle{
+
+ margin-left: 20%;
+
+}
+.sym-img{
+
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+.symPts{
+    margin-bottom: 50px;
+}
+
+/* <!-- <===========================================Preventions==================================================> --> */
+
+
+.prevention{
+    
+    
+  background-color: red;
+  padding: 150px;
+
+  background-color:#f4f9f4;
+
+}
+
+.preImgMain{
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    
+
+}
+.prevention-Title{
+
+ margin-left: 50%;
+
+
+}
+.pre-img{
+
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+.prePts{
+    margin-bottom: 50px;
+}
+/* <!-- <======================================help============================================> --> */
+
+.help{
+   
+    margin-bottom: 15%;
+    padding: 100px;
+}
+.help-title{
+    
+    position: relative;
+    top:100px;
+    left:250px;
+    line-height: 1.6;
+
+}
+
+.help-img{
+
+ 
+    float: right;
+    width: 35%;
+    margin-right: 250px;
+
+}
+
+
+
+
+
+/* <!-- <======================================conatct us============================================> --> */
+
+.contact-us{
+ 
+    padding-top:100px;
+    padding-bottom:10px;
+    display: flex;
+
+  background-color:#f4f9f4;
+
+
+}
+
+
+.contact-first-div{
+
+ text-align: left;
+ background-color:#f4f9f4;
+    
+ margin-left: 250px;
+ margin-right: 50px;
+ 
+
+
+}
+.contact-form{
+    
+    width: 50%;
+  background-color:white;
+    padding: 50px;
+    
+    
+    
+}
+input{
+        padding: 10px;
+        border-radius: 10px;
+        margin:5px;
+    
+}
+textarea{
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    margin:5px;
+    margin-bottom: 10px;
+
+}
+select{
+    margin-bottom: 10px;
+}
+
+.footer{
+
+
+
+    text-align: center;
+    padding-top: 30px;
+    background-color:#f4f9f4;
+    
+
+}
